@@ -3,12 +3,10 @@ var y = 5;
 
 function setup(){
     createCanvas(1920,1080);
-    //background('#FFDEF7');
-
 }
 
 function draw(){
-    background('#DEFFFD');
+    background('#000000');
     rect (x,y,10,10);
     x = x + 1;
     x = x % 720;
